@@ -4,6 +4,10 @@ include 'produtos.php';
 
 // Adicionar estilos para a caixa de detalhes do produto
 echo '<style>
+        body {
+            font-family: Arial, sans-serif; /* Define a fonte Arial */
+            text-align: center; /* Centraliza o texto */
+        }
         .caixa-detalhes {
             border: 1px solid #ddd; /* Borda cinza clara */
             padding: 20px; /* Espaçamento interno */
@@ -15,6 +19,7 @@ echo '<style>
         h1 {
             font-size: 24px;
             color: #007bff; /* Título com cor azul */
+            text-decoration: underline; /* Sublinha o nome do produto */
         }
         p {
             font-size: 18px;
