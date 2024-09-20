@@ -1,7 +1,7 @@
 <?php
 // Inclui o arquivo produtos.php para acessar os produtos
 include 'produtos.php';
-
+include 'db.php';
 // Adicionar estilos para os produtos
 echo '<style>
         body {
